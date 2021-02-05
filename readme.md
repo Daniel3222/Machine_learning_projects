@@ -1,4 +1,4 @@
-# Text classification of scientific abstract papers with Python
+# Image classification from a sample of the Quickdraw dataset
 
 This zipped folder which contains this README file is the result of the second Kaggle Data Competetion that just ended in IFT6390. It contains the following :
 
