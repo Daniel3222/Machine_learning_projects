@@ -31,7 +31,7 @@ class SVM:
         returns : numpy array of shape (num_features, num_classes)
         """
         active = (2 - y * np.dot(x, self.w) > 0).astype(float)
-        return -4/y.shape[0] * (np.dot(x.T, y * active)) + (self.C * self.w) # would have think that -2  here, but -4 works
+        return -2/y.shape[0] * (np.dot(x.T, y * active)) + (self.C * self.w)
 
     # Batcher function
     def minibatch(self, iterable1, iterable2, size=1):
